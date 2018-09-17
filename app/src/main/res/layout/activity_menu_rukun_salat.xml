@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <TextView
+        style="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:paddingTop="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Rukun Salat"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="59dp" />
+
+
+    <TextView
+        style="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:padding="25dp"
+        android:paddingTop="50dp"
+        android:text=" 1. Niat \n 2. Berdiri Tegak \n 3. Takbiratul Ikhram \n 4. Membaca Doa Iftitah \n 5. Membaca Surat Al Fatihah \n 6. Ruku' \n 7. Iktidal \n 8. Sujud \n 9. Duduk Diantara Dua Sujud \n 10. Tasyahud Awal \n 11. Tasyahud Akhir \n 12. Salam"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+</LinearLayout>

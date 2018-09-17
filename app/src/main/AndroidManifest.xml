@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cokilabs.shalat.shalat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/menu3"
+        android:label="Gerakan Shalat"
+        android:roundIcon="@drawable/menu3"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeBlue">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuPengertianSalat" />
+        <activity android:name=".MenuRukunSalat" />
+        <activity android:name=".MenuGerakanSalat" />
+        <activity android:name=".MenuArahKiblat" />
+        <activity android:name=".MenuProfil" />
+        <activity android:name=".MenuExit"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <TextView
+        style="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Pengertian Salat"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="59dp" />
+
+
+    <TextView
+        style="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="253dp"
+        android:fontFamily="sans-serif"
+        android:padding="25dp"
+        android:paddingTop="50dp"
+        android:text=" Salat menurut bahasa berarti d'oa. Sedangkan salat menurut  syariat adalah ibadah yang mengandung bacaan dan pebuatan tertentu dan khusus, yang diawali dengan  Takbiratul Ihram dan diakhiri dengan salam. "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+</LinearLayout>
